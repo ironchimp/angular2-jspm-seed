@@ -35,11 +35,11 @@ var scriptsBundle = function(bundleSource, targetFileName) {
         });
 
         return stream.pipe(vinylBuffer())
-          //.pipe(sourcemaps.init())
+          // .pipe(sourcemaps.init())
           .pipe(ngAnnotate())
-          //.pipe(uglify())
-          //.pipe(rename({ suffix: '.min' }))
-          //.pipe(sourcemaps.write())
+          .pipe(uglify())
+          .pipe(rename({ suffix: '.min' }))
+          // .pipe(sourcemaps.write())
           .pipe(gulp.dest(config.dest))
           .on('end', resolve)
           .on('error', reject);
