@@ -39,17 +39,6 @@ System.config({
     "@angular/router@3.0.0": "npm:@angular/router@3.0.0",
     "@angular/upgrade": "npm:@angular/upgrade@2.0.0",
     "@angular/upgrade@2.0.0": "npm:@angular/upgrade@2.0.0",
-    "@angular2-material/button": "npm:@angular2-material/button@2.0.0-alpha.5",
-    "@angular2-material/card": "npm:@angular2-material/card@2.0.0-alpha.5",
-    "@angular2-material/checkbox": "npm:@angular2-material/checkbox@2.0.0-alpha.5",
-    "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5",
-    "@angular2-material/input": "npm:@angular2-material/input@2.0.0-alpha.5",
-    "@angular2-material/list": "npm:@angular2-material/list@2.0.0-alpha.5",
-    "@angular2-material/progress-bar": "npm:@angular2-material/progress-bar@2.0.0-alpha.5",
-    "@angular2-material/progress-circle": "npm:@angular2-material/progress-circle@2.0.0-alpha.5",
-    "@angular2-material/radio": "npm:@angular2-material/radio@2.0.0-alpha.5",
-    "@angular2-material/sidenav": "npm:@angular2-material/sidenav@2.0.0-alpha.5",
-    "@angular2-material/toolbar": "npm:@angular2-material/toolbar@2.0.0-alpha.5",
     "angular2-in-memory-web-api": "npm:angular2-in-memory-web-api@0.0.20",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
@@ -59,7 +48,6 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.27",
     "es6-shim": "github:es-shims/es6-shim@0.35.1",
     "json": "github:systemjs/plugin-json@0.1.2",
-    "ng2-translate": "npm:ng2-translate@2.5.0",
     "reflect-metadata": "npm:reflect-metadata@0.1.8",
     "rxjs": "npm:rxjs@5.0.0-beta.12",
     "scss": "github:theefer/plugin-sass@master",
@@ -169,41 +157,6 @@ System.config({
       "@angular/core": "npm:@angular/core@2.0.0",
       "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0",
       "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.0.0"
-    },
-    "npm:@angular2-material/button@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/card@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/checkbox@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/core@2.0.0-alpha.5": {
-      "@angular/common": "npm:@angular/common@2.0.0",
-      "@angular/core": "npm:@angular/core@2.0.0"
-    },
-    "npm:@angular2-material/input@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/list@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/progress-bar@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5",
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0"
-    },
-    "npm:@angular2-material/progress-circle@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/radio@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/sidenav@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:@angular2-material/toolbar@2.0.0-alpha.5": {
-      "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
     },
     "npm:amdefine@1.0.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -414,13 +367,6 @@ System.config({
     "npm:miller-rabin@4.0.0": {
       "bn.js": "npm:bn.js@4.11.6",
       "brorand": "npm:brorand@1.0.6"
-    },
-    "npm:ng2-translate@2.5.0": {
-      "@angular/core": "npm:@angular/core@2.0.0",
-      "@angular/http": "npm:@angular/http@2.0.0",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:os-browserify@0.1.2": {
       "os": "github:jspm/nodelibs-os@0.1.0"
