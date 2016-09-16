@@ -4,7 +4,7 @@ gulp.task('deploy', gulp.series(
   'html-deploy',
   'sass-deploy',
   'typescript-deploy',
-  'test-deploy',
+  // 'test-deploy',
   'copy-deploy',
   'scripts-bundle',
   'delete-deploy-src'
