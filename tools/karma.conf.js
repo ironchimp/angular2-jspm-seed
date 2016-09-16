@@ -18,7 +18,7 @@ module.exports = function (config) {
     files: [
       'node_modules/es6-shim/es6-shim.js',
       'node_modules/reflect-metadata/Reflect.js',
-      'node_modules/zone.js/dist/zone.js',
+      'node_modules/zone.js/dist/proxy.js',
       'node_modules/zone.js/dist/jasmine-patch.js',
       'node_modules/zone.js/dist/async-test.js',
       'node_modules/zone.js/dist/fake-async-test.js'

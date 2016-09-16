@@ -3,7 +3,7 @@ import 'reflect-metadata';
 import {provide} from '@angular/core';
 import {bootstrap} from '@angular/platform-browser-dynamic';
 import {HTTP_PROVIDERS, Http} from '@angular/http';
-import {ROUTER_PROVIDERS} from '@angular/router-deprecated';
+import {ROUTER_PROVIDERS} from '@angular/router';
 import {AppComponent} from './app';
 
 // noinspection TypeScriptCheckImport

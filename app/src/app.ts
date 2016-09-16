@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {Router, Route, RouteConfig, ROUTER_DIRECTIVES} from '@angular/router-deprecated';
+import {Router, Route, RouteConfig, ROUTER_DIRECTIVES} from '@angular/router';
 
 // noinspection TypeScriptCheckImport
 import {MdButton} from '@angular2-material/button';
