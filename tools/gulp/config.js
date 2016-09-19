@@ -7,7 +7,7 @@ var vendorSCSS = '../ui-proto/scss/materialize/materialize.scss';
 var build = 'target';
 var development = 'target/development';
 var coverage = 'target/coverage';
-var production = 'target/production';
+var production = 'target/webapp';
 var developmentAssets = 'target/development/assets';
 
 
